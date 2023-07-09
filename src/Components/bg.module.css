@@ -1,0 +1,67 @@
+.boxbg1 {
+    position: absolute;
+    background: url('/images/bg1.png'), lightgray 0px 0px / 100% 100% no-repeat;
+    width: 100vw;
+    height: 738px;
+    flex-shrink: 0;
+    opacity: 0.6000000238418579 !important;
+}
+
+
+
+
+.boxbg2 {
+    width: 1440px;
+    height: 738px;
+    flex-shrink: 0;
+    background: url('/images/bg2.jpg'), lightgray 50% / cover no-repeat;
+z-index: 1;
+}
+@media screen and (max-width:300px){
+    .boxbg1{
+        height: 1200px !important;
+
+    }
+    .boxbg2{
+        height: 1200px !important;
+
+    }
+}
+.typo {
+    color: #FFF;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: -0.8px;
+}
+.dog {
+    color: #FFF;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: -0.8px;
+}
+@media screen and (max-width: 625px){
+.typo{
+    font-size: 29px;
+    line-height: 30px;
+}
+.dog{
+    color: #FFF;
+    font-size: 26px !important;
+    font-style: normal;
+}
+.body1{
+    font-size: 18px !important;
+    font-style: normal;
+
+}
+}
+.body1{
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.8px;
+}

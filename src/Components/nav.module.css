@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+.nav {
+    color: black;
+    font-family: 'Caprasimo', cursive;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box1 {
+    margin: 1em;
+    width: 70%;
+    padding: 12px;
+}
+
+.box2 {
+    margin: 1em;
+    max-width: 100%;
+}
+
+@media (max-width:600px) {
+
+    .box,
+    .Box1 {
+        flex-direction: column;
+    }
+
+    .box1,
+    .box11,
+    .box12 {
+        flex: 0 0 auto;
+        width: 100% !important;
+    }
+
+    .box2 {
+        width: 100%;
+    }
+
+    .box12 {
+        margin-left: 0% !important;
+        font-size: medium !important;
+    }
+
+    .my-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .myImg {
+        height: 200px !important;
+    }
+}
+
+.responsiveImageWrapper {
+    position: relative;
+    width: 50px;
+    /* Set the desired width of the image */
+    height: 50px;
+    /* Set the desired height of the image */
+}
+
+.Box1 {
+    display: flex;
+    background-color: brown;
+}
+
+.box11 {
+    flex: 0 0 auto;
+    max-width: 100%;
+    position: relative;
+    height: auto;
+
+}
+
+.box12 {
+    flex: 0 0 auto;
+    width: 70%;
+    margin-left: 12px;
+}
+.circle{
+   /* text-align: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: white; */
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* adjust the size of the circle as per your requirements */
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #435B66;
+  cursor: pointer ;
+  background-color: #caf0f8;
+  color: #435B66;
+}
+.circle:hover{
+    background-color: #FFF4F4;
+    color: #FC4F00;
+}
+.number {
+    font-size: 30px; /* adjust the font size as per your requirements */
+  }
+  .myImg{
+    border-radius: 14px;
+  }
